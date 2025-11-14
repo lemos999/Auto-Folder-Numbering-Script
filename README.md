@@ -58,7 +58,7 @@ This method is for Windows users and does not require Python to be installed on 
         ```
     *   Navigate to the script's directory and run the following command to create a single executable file:
         ```bash
-        pyinstaller --onefile auto_number_folders
+        pyinstaller --onefile auto_number_folders.py
         ```2.  **How to Use the `.exe` File:**
     *   Find the `auto_number_folders.exe` file inside the `dist` folder created by PyInstaller.
     *   Copy `auto_number_folders.exe` **into the directory** containing the folders you want to number.
@@ -114,7 +114,7 @@ This method is for Windows users and does not require Python to be installed on 
         ```
     *   스크립트가 있는 디렉토리로 이동한 후, 아래 명령어를 실행하여 단일 실행 파일을 생성합니다.
         ```bash
-        pyinstaller --onefile auto_number_folders
+        pyinstaller --onefile auto_number_folders.py
         ```
 2.  **`.exe` 파일 사용법:**
     *   PyInstaller가 생성한 `dist` 폴더 안에서 `auto_number_folders.exe` 파일을 찾습니다.
