@@ -7,7 +7,6 @@ A simple Python script that automatically adds numerical prefixes (e.g., `01_`, 
 **[Table of Contents]**
 1.  [English Documentation](#english-documentation)
 2.  [Korean Documentation (한국어 문서)](#korean-documentation-한국어-문서)
-3.  [License](#license)
 
 ---
 
