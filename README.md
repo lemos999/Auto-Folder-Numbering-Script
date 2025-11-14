@@ -42,10 +42,10 @@ There are two ways to use this script:
 #### **Method 1: Direct Execution (Requires Python)**
 
 1.  **Prerequisites:** Ensure you have Python installed on your system.
-2.  **Preparation:** Place the `a.py` script **inside the directory** where you want to number the folders.
+2.  **Preparation:** Place the `auto_number_folders` script **inside the directory** where you want to number the folders.
 3.  **Execution:** Open a terminal (Command Prompt, PowerShell, etc.) in that directory and run the command:
     ```bash
-    python a.py
+    python auto_number_folders
     ```
 
 #### **Method 2: Using the Compiled Executable (.exe)**
@@ -59,11 +59,11 @@ This method is for Windows users and does not require Python to be installed on 
         ```
     *   Navigate to the script's directory and run the following command to create a single executable file:
         ```bash
-        pyinstaller --onefile a.py
+        pyinstaller --onefile auto_number_folders
         ```2.  **How to Use the `.exe` File:**
-    *   Find the `a.exe` file inside the `dist` folder created by PyInstaller.
-    *   Copy `a.exe` **into the directory** containing the folders you want to number.
-    *   Double-click `a.exe` to run it. The folders will be numbered automatically.
+    *   Find the `auto_number_folders.exe` file inside the `dist` folder created by PyInstaller.
+    *   Copy `auto_number_folders.exe` **into the directory** containing the folders you want to number.
+    *   Double-click `auto_number_folders.exe` to run it. The folders will be numbered automatically.
 
 ---
 
@@ -98,10 +98,10 @@ This method is for Windows users and does not require Python to be installed on 
 #### **방법 1: 직접 실행 (Python 필요)**
 
 1.  **준비물:** 시스템에 Python이 설치되어 있어야 합니다.
-2.  **준비:** `a.py` 스크립트 파일을 **번호를 부여하려는 폴더들이 있는 디렉토리 안으로** 복사합니다.
+2.  **준비:** `auto_number_folders` 스크립트 파일을 **번호를 부여하려는 폴더들이 있는 디렉토리 안으로** 복사합니다.
 3.  **실행:** 해당 디렉토리에서 터미널(명령 프롬프트, PowerShell 등)을 열고 아래 명령어를 입력합니다.
     ```bash
-    python a.py
+    python auto_number_folders
     ```
 
 #### **방법 2: 컴파일된 실행 파일(.exe) 사용**
@@ -115,9 +115,9 @@ This method is for Windows users and does not require Python to be installed on 
         ```
     *   스크립트가 있는 디렉토리로 이동한 후, 아래 명령어를 실행하여 단일 실행 파일을 생성합니다.
         ```bash
-        pyinstaller --onefile a.py
+        pyinstaller --onefile auto_number_folders
         ```
 2.  **`.exe` 파일 사용법:**
-    *   PyInstaller가 생성한 `dist` 폴더 안에서 `a.exe` 파일을 찾습니다.
-    *   이 `a.exe` 파일을 **번호를 부여하려는 폴더들이 있는 디렉토리 안으로** 복사합니다.
-    *   `a.exe` 파일을 더블클릭하여 실행하면 폴더에 자동으로 번호가 부여됩니다.
+    *   PyInstaller가 생성한 `dist` 폴더 안에서 `auto_number_folders.exe` 파일을 찾습니다.
+    *   이 `auto_number_folders.exe` 파일을 **번호를 부여하려는 폴더들이 있는 디렉토리 안으로** 복사합니다.
+    *   `auto_number_folders.exe` 파일을 더블클릭하여 실행하면 폴더에 자동으로 번호가 부여됩니다.
